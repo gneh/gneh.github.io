@@ -2,10 +2,10 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    border-top: 5px solid #ff66b3;
+    border-bottom: 1px solid #ff66b3;
     min-height: 56px;
-
+    background-color: white;
     // Positioning context for the mobile navigation icon
     position: relative;
 }
@@ -92,14 +92,13 @@
     }
 }
 
-
-
 /**
  * Site footer
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background-color: #1a1a1a;
 }
 
 .footer-heading {
@@ -169,6 +168,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    background-color: #f2f2f2;
 }
 
 .page-heading {
@@ -190,10 +190,15 @@
 }
 
 .post-link {
+    text-decoration:none;
+    color: #ff66b3;
     display: block;
     font-size: 24px;
 }
-
+.post-link:visited {
+   text-decoration:none;
+   color: #ff66b3;
+}
 
 
 /**
@@ -238,5 +243,10 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+    p {
+        font-family: Open Sans;
+	font-size: 16px;
+	line-height: 31px;
     }
 }
