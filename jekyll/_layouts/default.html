@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-　　<title>{{ page.title }}</title>
-</head>
-<body>
+
+	{% if page.title != 'index' %}
+	    {% include head.html %}
+	{% else %}
+		{% include index_head.html %}		
+	{% endif %}
+
+
+	<body id="page-top" class="landing-page">
+
+	{% if page.title != 'index' %}
+	    {% include header.html %}
+	{% endif %}
+
     {{ content }}
 
+	{% if page.title != 'index' %}
+	    {% include footer.html %}
+	{% else %}
+		{% include index_footer.html %}
+	{% endif %}
+
 </body>
+
 </html>
