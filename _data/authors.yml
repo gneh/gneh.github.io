@@ -29,3 +29,13 @@ jwillmer:
   website:      "http://jwillmer.de/about" 
   twitter:      jenswillmer
   github:       jwillmer
+gene:
+  initial:      jwillmer
+  name:         "Yip Gene"        
+  cover:        /assets/mountain-alternative-cover.jpg  
+  picture:      /assets/pic.png 
+  bio:          ITer
+  location:     Germany 
+  website:      "http://jwillmer.de/about" 
+  twitter:      jenswillmer
+  github:       jwillmer
