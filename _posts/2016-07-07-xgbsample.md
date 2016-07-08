@@ -1,7 +1,7 @@
 ---
 layout:            post
 title:             "Xgboost Sample Code"
-date:              2016-07-08 08:00:00 +0800
+date:              2016-07-07 08:00:00 +0800
 tags:              Data Mining
 category:          Data Mining
 ---
