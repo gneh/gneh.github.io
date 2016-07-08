@@ -6,7 +6,7 @@ tags:              Language::Python
 category:          Language::Python
 ---
 
-## 遍歷文件夾
+## Traverse Folder
     import os;
     rootDir = './raw_data/uninstall/';
     list_dirs = os.walk(rootDir);
