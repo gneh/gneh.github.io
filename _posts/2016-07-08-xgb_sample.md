@@ -2,9 +2,10 @@
 layout:            post
 title:             "Xgboost Sample Code"
 date:              2016-07-08 20:00:00 +0800
-tags:              Data Mining
-category:          Data Mining
+tags:              Data_Mining
+category:          Data_Mining
 ---
+
 *Coded by Kaggler [Misfyre](https://www.kaggle.com/misfyre)*
 
 	# -*-coding: utf-8 -*-
