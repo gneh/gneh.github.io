@@ -8,7 +8,7 @@ category:          OJ
 
 ## Count Primes
 *Count the number of prime numbers less than a non-negative number, n.*  
-The following is O(n^(2)) Solution  
+The following is O(n^[2]) Solution  
 
     class Solution {
     public:
@@ -30,4 +30,27 @@ The following is O(n^(2)) Solution
            }
            return primes.size();
        }
+    };
+    
+The following is O(n) Solution  
+
+    class Solution {
+    public:
+        int countPrimes(int n) {
+            if (n < 2)
+                return 0;
+            vector<int> primes(n, false);
+            int upper = sqrt(n);
+            int counter = 0;
+            for (int i = 2; i < n; ++i) {
+                if (primes[i])
+                    continue;
+                ++counter;
+                if (i > upper)
+                    continue;
+                for (int j = i * i; j < n; j += i)
+                    primes[j] = true;
+            }
+            return counter;
+        }
     };
