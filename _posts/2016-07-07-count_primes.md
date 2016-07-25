@@ -8,11 +8,7 @@ category:          OJ
 
 ## Count Primes
 *Count the number of prime numbers less than a non-negative number, n.*  
-The following is 
-
-$$
-O(n^2)
-$$
+The following is $$O(n^2)$$
 
  Solution  
 
@@ -38,7 +34,7 @@ $$
        }
     };
     
-The following is $$ O(n) $$ Solution  
+The following is $$O(n)$$ Solution  
 
     class Solution {
     public:
